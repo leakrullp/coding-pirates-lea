@@ -5,11 +5,11 @@ import datetime
 
 def is_it_wednesday(date):
     
-    # weekday() returnerer et tal fra 0-6; 0 = mandag, 1 = tirsdag, 2 = onsdag osv.
+    # date.weekday() returnerer et tal fra 0-6; 0 = mandag, 1 = tirsdag, 2 = onsdag osv.
     weekday_value = date.weekday()
     
     if weekday_value == 2:
-        print("Yes, det er onsdag og vi skal til Coding Pirates!")
+        print("Ja, det er onsdag og vi skal til Coding Pirates!")
     else:
         print("Nej, det er ikke onsdag. Øv!") 
 

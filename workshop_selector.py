@@ -12,6 +12,15 @@ workshops = ["Scratch", "Python", "GameMaker", "Excel"]
 # liste, som kan gemme i en variabel
 selected_workshop = random.choice(workshops)
 
-# Skriv dit program her:
+def distribute_workshops():
+    # skriv din funktion...
+    
+    
+    
+    print("Alle er blevet fordelt!")
+    
+
+#Kør dit program
+distribute_workshops()
 
 
